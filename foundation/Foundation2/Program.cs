@@ -28,7 +28,7 @@ class Program
         Console.WriteLine(order1.DisplayShippingLabel());
         Console.WriteLine($"\nTotal Cost: ${order1.CalculateTotalCost():0.00}");
         Console.WriteLine("___________________________");
-
+ 
         Console.WriteLine(order2.DisplayPackingLabel());
         Console.WriteLine(order2.DisplayShippingLabel());
         Console.WriteLine($"\nTotal Cost: ${order2.CalculateTotalCost():0.00}");
